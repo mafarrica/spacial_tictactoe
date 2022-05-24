@@ -1,0 +1,73 @@
+body {
+    background-image: url("imgs/background.png");
+    background-size: 100vw;
+  }
+
+.endGame-alert {
+    position: absolute; left: 31vw; top: 3vw;
+    visibility: hidden;
+    height: 29vw;
+    width: 25vw;
+    margin: 2vw auto;
+    padding: 5vw;
+    border: 0.8vw solid black;
+    border-radius: 5vw;
+    background-color: #3667AF;
+    background-image: url(imgs/winning_gif.png);
+}
+
+.button {
+    position: absolute; bottom: 2vw; right: 2vw;
+    width: 9vw;
+    height: 3vw;
+    background-color:  antiquewhite;
+    border: 0.2vw solid black;
+    border-radius: 0.6vw;
+    font-size: 1.05vw;
+    text-align: center;
+}
+
+button:hover {
+  background-color: rgb(151, 140, 126);
+  }
+
+.rotate_board{
+  transform: rotate(45deg);
+}
+
+
+
+
+
+.fact-box{
+    position: absolute; top: 10vw; left: 23vw; 
+    visibility: hidden;
+    height: 13vw;
+    width: 36vw;
+    margin: 2vw;
+    padding: 5vw;
+    border: 1vw solid black;
+    border-radius: 6vw;
+    background-color: #6fcce0;
+}
+
+.button-fact{
+    position: absolute; bottom: 2vw; right: 2vw;
+    width: 6.5vw;
+    height: 2.4vw;
+    background-color:  thistle;
+    border: 0.2vw solid black;
+    border-radius: 0.6vw;
+    font-size: 1.1vw;
+    text-align: center;
+}
+
+  button.button-fact:hover {
+  background-color:rgb(129, 112, 129);
+  }
+
+
+
+img:hover{
+  opacity: 0.5;
+}

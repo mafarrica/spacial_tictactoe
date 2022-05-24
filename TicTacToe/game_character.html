@@ -1,0 +1,86 @@
+<!doctype HTML>
+
+<html lang="pt">
+
+<head>
+    <title>Jogo do Galo</title>
+    <link rel="icon" href="imgs/icon.png">
+    <script 
+        language="javascript" type="text/javascript" src="character.js" >
+        var player1, player2, p1, p2, p1Name, p2Name, n1, n2;
+    </script>
+    <link rel="stylesheet" href="character.css">
+    <meta charset="utf-8" name="viewport" content="width, initial-scale=1" >
+
+
+</head>
+
+
+
+<body>
+    <div id="everything-box">
+    <br><br>
+    <center>
+        <span style="color: white; font-size: 4vw; font-family: sans-serif;"> 
+            Escolhe o teu planeta</span>
+    </center>
+    <div style="position: absolute; top: 20vw; left: 25vw;">
+    <center>
+    <img src="imgs/planeta_amarelo.png" onclick="attribute_p(0); " id="0" style="width: 9.5vw;">
+    <img src="imgs/planeta_azul.png" onclick="attribute_p(1); " id="1" style="width: 9.5vw;">
+    <img src="imgs/planeta_bonito.png" onclick="attribute_p(2); " id="2" style="width: 9.5vw;">
+    <img src="imgs/planeta_colorido.png" onclick="attribute_p(3); " id="3" style="width: 9.5vw;">
+    <img src="imgs/planeta_laranja.png" onclick="attribute_p(4); " id="4" style="width: 9.5vw;">
+    </center>
+    </div>
+    <div style="position: absolute; top: 32vw; left: 25vw;">
+    <center>
+    <img src="imgs/planeta_preto.png" onclick="attribute_p(5); " id="5" style="width: 9.5vw;">
+    <img src="imgs/planeta_rosa.png" onclick="attribute_p(6); " id="6" style="width: 9.5vw;">
+    <img src="imgs/planeta_roxo.png" onclick="attribute_p(7); " id="7" style="width: 9.5vw;">
+    <img src="imgs/planeta_verde.png" onclick="attribute_p(8); " id="8" style="width: 9.5vw;">
+    <img src="imgs/planeta_vermelho.png" onclick="attribute_p(9); " id="9" style="width: 9.5vw;">
+    </center>
+    </div>
+
+    <div class="player_box" style="position: absolute; top: 19vw; left: 0.5vw;">
+        <br><br><b>Jogador 1</b><br><br>
+        <br>
+        <img src="" style="height:50%;" id="player1">
+    </div>
+
+    <div class="player_box" style="position: absolute; top: 19vw; right: 0.5vw;">
+        <br><br><b>Jogador 2</b><br><br>
+        <br>
+        <img src="" style="height:50%;" id="player2">
+    </div>
+
+    <a href="game_board.html">
+        <button class="play_button" id="button_play" onclick="storeName()">
+            PLAY
+        </button></a>
+    
+    </div>
+
+    <img src="imgs/estrela_facto.png" onclick="openFact4()" style="width: 6vw; position:absolute; top: 5vw; right: 15vw;">
+
+    <div class="fact-box" id="facts4">
+        <center>
+        <p style="font-size: 1.8vw; font-family: sans-serif;">
+            Sabias que, se fosse possível viajar até Júpiter, Saturno, Urano ou Netuno, 
+            não conseguiríamos passear sobre eles? Isto acontece porque estes planetas 
+            não têm uma superfície sólida. 
+        </p>
+        </center>
+
+        <button class="button-fact" onclick="openFact4()">BACK</button>
+    </div>
+
+
+    <div style="visibility: hidden; position: absolute; top: 0vw; left: 0vw;">
+        <audio controls autoplay loop> <source src="musica.mp3" type="audio/mpeg"></audio>
+    </div>
+    
+</body>
+
+</html>

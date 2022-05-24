@@ -1,0 +1,106 @@
+body{
+    background-image: url("imgs/background.png");
+    background-size: 100vw;
+}
+
+.mainBox {
+    height: 35vw;
+    width: 30vw;
+    margin: 2vw auto;
+    padding: 5vw;
+    border: 1vw solid black;
+    border-radius: 6vw;
+    background-color: rgb(99, 90, 153);
+    font-size: 4vw;
+    font-family:monospace;
+    text-align: center;
+    
+  }
+
+
+  .button {
+    width: 11vw;
+    height: 3.7vw;
+    background-color:  antiquewhite;
+    border: 0.25vw solid black;
+    border-radius: 1.3vw;
+    font-size: 1.5vw;
+    text-align: center;
+    }
+
+    button:hover {
+    background-color: rgb(134, 126, 115);
+    }
+
+
+.credits {
+    position: absolute; left: 31vw; top: 3vw;
+    visibility: hidden;
+    height: 29vw;
+    width: 25vw;
+    margin: 2vw auto;
+    padding: 5vw;
+    border: 1vw solid black;
+    border-radius: 6vw;
+    background-color:thistle;
+}
+img:hover{
+    opacity: 0.5;
+}
+
+
+.button-back {
+    position: absolute; bottom: 2vw; right: 2vw;
+    width: 6.5vw;
+    height: 2.3vw;
+    background-color:  #6fcce0;
+    border: 0.2vw solid black;
+    border-radius: 0.6vw;
+    font-size: 1.05vw;
+    text-align: center;
+    
+}
+
+    button.button-back:hover {
+    background-color: #4d8d9b;
+    }
+
+.objective_box {
+    position: absolute; left: 31vw; top: 3vw;
+    visibility: hidden;
+    height: 29vw;
+    width: 25vw;
+    margin: 2vw auto;
+    padding: 4vw;
+    border: 1vw solid black;
+    border-radius: 6vw;
+    background-color:thistle;
+}
+
+.fact-box{
+    position: absolute; top: 10vw; left: 23vw; 
+    visibility: hidden;
+    height: 13vw;
+    width: 36vw;
+    margin: 2vw;
+    padding: 5vw;
+    border: 1vw solid black;
+    border-radius: 6vw;
+    background-color: #6fcce0;
+}
+
+.button-fact{
+    position: absolute; bottom: 2vw; right: 2vw;
+    width: 6.5vw;
+    height: 2.4vw;
+    background-color:  thistle;
+    border: 0.2vw solid black;
+    border-radius: 0.6vw;
+    font-size: 1.1vw;
+    text-align: center;
+}
+
+    button.button-fact:hover {
+    background-color:rgb(129, 112, 129);
+    }
+

@@ -1,0 +1,62 @@
+body{
+    background-image: url("imgs/background.png");
+    background-size: 100vw;
+}
+
+.player_box {
+    width: 15vw;
+    height: 23vw;
+    background-color: thistle;
+    border: 0.4vw solid black;
+    border-radius: 3vw;
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: sans-serif;
+}
+
+.play_button{
+    position: absolute; bottom: 1vw; left: 43vw;
+    visibility: hidden;
+    width: 10.5vw;
+    height: 3.7vw;
+    background-color:  #da3b3b;
+    border: 0.25vw solid black;
+    border-radius: 0.5vw;
+    font-size: 2vw;
+    text-align: center;
+}
+button:hover {
+    background-color: #7a2020;
+    }
+
+img:hover{
+    opacity: 0.5;
+}
+
+.fact-box{
+    position: absolute; top: 10vw; left: 23vw; 
+    visibility: hidden;
+    height: 13vw;
+    width: 36vw;
+    margin: 2vw;
+    padding: 5vw;
+    border: 1vw solid black;
+    border-radius: 6vw;
+    background-color: #6fcce0;
+  }
+  
+  .button-fact{
+    position: absolute; bottom: 2vw; right: 2vw;
+    width: 6.5vw;
+    height: 2.4vw;
+    background-color:  thistle;
+    border: 0.2vw solid black;
+    border-radius: 0.6vw;
+    font-size: 1.1vw;
+    text-align: center;
+  }
+  
+    button.button-fact:hover {
+    background-color:rgb(129, 112, 129);
+    }
+

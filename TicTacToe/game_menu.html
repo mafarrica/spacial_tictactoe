@@ -1,0 +1,123 @@
+<!doctype HTML>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width, initial-scale=1" >
+    <title>Jogo do Galo</title>
+    <link rel="icon" href="imgs/icon.png">
+    <link rel="stylesheet" href="menu_style.css">
+    <script language="javascript" type="text/javascript" src="menu_script.js"></script>
+    
+</head>
+
+<body>
+
+    <div id="main_box" class="mainBox">
+        <span style="color: white;">
+        <b>Jogo do Galo Espacial</b>
+        </span>
+        <br>
+        <img src="imgs/galo_espacial.png" style="width: 20vw;" onclick="openFact3()">
+        <a href="game_character.html"><button class="button">
+            START
+        </button></a><br>
+        <button class="button" onclick="openObjective()">
+            OBJECTIVE
+        </button>
+        <button class="button" onclick="openCredits()">
+            CREDITS
+        </button>
+    </div>
+
+    <div id="objective-box" class="objective_box">
+        <span style="color: black; text-align: center; font-size: 2.64vw; font-family:Verdana, Geneva, Tahoma, sans-serif">
+            <b>Objetivo do Jogo</b>
+        </span>
+        <br><div style="height: 2vw;"></div>
+        <p style="color: black; font-size: 1.5vw; font-family: sans-serif;">
+            No jogo do galo, dois jogadores batalham pela conquista de uma linha com 3 peças iguais, 
+            sendo que cada um tem a sua peça correspondente.
+            No nosso jogo, criámos ainda uma tarefa que deverão realizar em conjunto, 
+            enquanto equipa. Procurem as 7 mensagens escondidas enquanto navegam pelas páginas. <br>
+            E divirtam-se!
+        </p>
+        <img src="imgs/satelite_facto.png" onclick="openFact2()" style="width: 7vw; position: absolute; top: 30vw; left: 15vw;" >
+        <button class="button-back" onclick="openObjective()">BACK</button>
+    </div>
+
+    <div id="credits_box" class="credits">
+        <span style="color: black; text-align: center; font-size: 3.5vw; font-family:Verdana, Geneva, Tahoma, sans-serif;">
+            <b>Créditos</b>
+        </span>
+        <p style="color: black; font-size: 1.75vw; font-family: sans-serif;"> 
+            Das criadoras:
+        </p>
+        <p style="color: black; font-size: 1.5vw; font-family: sans-serif;">
+            Inês Cadete - Programadora<br>
+            Joana Pinto - Designer<br>
+            Mafalda Fernandes - Programadora<br>
+            Sofia Soares - Produtora Musical<br><br>
+            Escola Secundária Quinta do Marquês | 12ºD | 2020/2021<br><br>
+        </p>
+        <img src="imgs/foguetao_facto.png" onclick="openFact1()" style="width: 9vw; transform: rotate(45deg); position: absolute; top: 3vw; left:20vw;" >
+        
+        <div style="font-size: 0.8vw; width: 18vw; position: absolute; bottom: 2vw;">
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+            <img alt="Licença Creative Commons" style="border-width:0; width: 10vw;" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
+            <br />O trabalho 
+            <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Jogo do Galo Espacial</span> 
+            de 
+            <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">As Clementina</span> 
+            está licenciado com uma Licença 
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+                Creative Commons - Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
+            </div>
+
+        <button class="button-back" onclick="openCredits()">BACK</button>
+    </div>
+
+    <div class="fact-box" id="facts1">
+        <center>
+        <p style="font-size: 1.8vw; font-family: sans-serif;">
+            Sabias que se tentássemos atravessar a Via Láctea à velocidade da luz, 
+            levaríamos 100 mil anos para completar o trajeto?
+        </p>
+        </center>
+        <button class="button-fact" onclick="openFact1()">
+             BACK
+        </button>
+    </div>
+
+    <div class="fact-box" id="facts2">
+        <center>
+        <p style="font-size: 1.5vw; font-family: sans-serif;">
+            Sabias que em Vénus, neva metal e chove ácido sulfúrico? 
+            Isto ocorre porque Vénus é um planeta sufocado por ácido sulfúrico, 
+            o que faz com que os metais do planeta passem pela fase gasosa e líquida, 
+            e caiam no solo no seu estado sólido devido às diferenças de temperatura na atmosfera.
+        </p>
+        </center>
+        <button class="button-fact" onclick="openFact2()">
+             BACK
+        </button>
+    </div>
+
+    <div class="fact-box" id="facts3">
+        <center>
+        <p style="font-size: 1.8vw; font-family: sans-serif;">
+            Sabias que os astronautas residentes na Estação Espacial Internacional 
+            testemunham por volta de 15 amanheceres e 15 pores do sol todos os dias?
+        </p>
+        </center>
+        <button class="button-fact" onclick="openFact3()">
+             BACK
+        </button>
+    </div>
+
+    
+    <div style="visibility: hidden; position: absolute; top: 0vw; left: 0vw;">
+        <audio controls autoplay loop> <source src="musica.mp3" type="audio/mpeg"></audio>
+    </div>        
+
+</body>
+</html>
