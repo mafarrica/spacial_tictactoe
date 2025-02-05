@@ -1,3 +1,3 @@
-# Highschool_Projects
+# TicTacToe
 
-Link to the Spacial TikTakToe game: https://spacetiktaktoe.000webhostapp.com/
+Link to the Spacial TicTacToe game: https://spacetiktaktoe.000webhostapp.com/
