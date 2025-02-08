@@ -1,4 +1,4 @@
-# TicTacToe
+# Spacial TicTacToe
 
 Link to the game: https://spacetiktaktoe.000webhostapp.com/
 
